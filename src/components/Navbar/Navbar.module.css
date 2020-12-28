@@ -1,0 +1,39 @@
+.Navbar {
+  width: 90%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.logoSection {
+  /* height: 100%; */
+  width: 40%;
+}
+.logo {
+  padding: 10px;
+}
+.logo img {
+  border: 2px solid transparent;
+}
+.logo img:hover {
+  border: 2px solid #9f64a9;
+}
+
+.infoSection {
+  width: 60%;
+  font-weight: 600;
+}
+.info ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.info ul li a {
+  text-decoration: none;
+  color: #292922;
+}
+
+.infoDark ul li a {
+  text-decoration: none;
+  color: #f5f5ff;
+}

@@ -1,0 +1,50 @@
+.Front {
+  width: 90%;
+  min-height: 20vh;
+  display: block;
+}
+
+.header {
+  min-height: 62vh;
+  display: flex;
+  align-items: center;
+  justify-items: start;
+}
+
+.header h1 {
+  /* color: #f5f5ff; */
+  max-width: 58vw;
+  line-height: 3.8rem;
+  font-size: 2.55rem;
+}
+
+@media (max-width: 992px) {
+  .header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    max-width: 100vw;
+  }
+}
+
+/* separater */
+hr {
+  border: 2px solid #383858;
+  margin: 80px auto 60px;
+  max-width: 25vw;
+  background-color: transparent;
+  height: 1.5px;
+}
+
+/* main container start from here  */
+
+.project-container {
+}
+
+.project-container-info {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+}

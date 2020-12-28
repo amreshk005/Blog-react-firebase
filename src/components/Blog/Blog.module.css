@@ -1,0 +1,21 @@
+.blog-container {
+  margin-top: 90px;
+  width: 75%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-card {
+  margin-bottom: 1.78rem;
+}
+.blog-card h2 {
+  /* margin-top: 5px; */
+  margin-block-start: 0.5em;
+  margin-bottom: 4px;
+  font-size: 2.275rem;
+  font-weight: 900;
+}
+.blog-card p {
+  /* display: flex; */
+  margin-bottom: 0rem;
+}

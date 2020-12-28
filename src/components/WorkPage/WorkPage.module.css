@@ -1,0 +1,75 @@
+.work {
+  margin-top: 120px;
+  width: 90%;
+  min-height: 80vh;
+  display: block;
+}
+
+.work:before {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 46vw;
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(40deg);
+  background-color: #fff2ff;
+  position: fixed;
+  top: -20vw;
+  right: -42vw;
+  z-index: -1;
+}
+
+.work p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 70px;
+}
+hr {
+  border: 2px solid #383858;
+  margin: 80px auto 60px;
+  max-width: 25vw;
+  background-color: transparent;
+  height: 1.5px;
+}
+.work-container-title {
+  margin-bottom: 30px;
+  color: #cfceee;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.work-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 60px;
+}
+
+.work-card {
+  border: 1px solid #cfceee;
+  padding: 30px;
+  box-shadow: 0.2rem 0.2rem #cfceee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-container .work-desc {
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.work-container .work-card .links-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.work-card .links-wrap a {
+  font-size: 1.1rem;
+  width: fit-content;
+  color: #a568b0;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
+  font-family: "Alegreya Sans", sans-serif;
+  text-decoration: none;
+}
