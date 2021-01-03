@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import style from "./WorkPage.module.css";
 import data from "../../data/data.json";
+import { connect } from "react-redux";
+import { fetchData } from "../../redux/action";
 
-const WorkPage = () => {
+const WorkPage = (props) => {
+  useEffect(() => {
+    props.fetchData();
+  }, []);
   return (
     <div className={style["work"]}>
       <div className={style["work-info"]}>
@@ -36,4 +41,15 @@ const WorkPage = () => {
   );
 };
 
-export default WorkPage;
+const mapDispatchToProps = (dispatch) => {
+  return {
+    fetchData: () => dispatch(fetchData()),
+  };
+};
+const mapStateToProps = (state) => {
+  return {
+    data: state.data,
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(WorkPage);
