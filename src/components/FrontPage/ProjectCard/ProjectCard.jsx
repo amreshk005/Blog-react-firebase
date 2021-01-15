@@ -12,12 +12,12 @@ const ProjectCard = () => {
         return (
           <div key={index} className={style[(index + 1) % 2 === 0 ? "project-card-reverse" : "project-card"]}>
             <div className={style["project-image"]}>
-              <img src={e.image} style={{ maxWidth: "100%" }} alt="new" />
+              <img src={e.image} style={{ maxWidth: "100%" , border:"1px solid #000" }} alt="new" />
             </div>
             <div className={style["project-info"]}>
               <h2>{e.name}</h2>
               <p style={{ fontSize: "medium" }}>{e.des}</p>
-              <a style={{}} href="/#">
+              <a href={e.link}>
                 Work
               </a>
             </div>

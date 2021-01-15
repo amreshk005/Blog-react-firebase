@@ -18,6 +18,7 @@ footer ul {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: left;
   padding: 0;
   margin: 0 0 80px;
 }
@@ -35,7 +36,7 @@ ul li {
   text-decoration: none;
   font-size: 1.3rem;
   padding: 5px;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .Footer-light ul li a {

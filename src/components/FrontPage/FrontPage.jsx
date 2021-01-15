@@ -7,9 +7,9 @@ const FrontPage = (props) => {
     <div className={style["Front"]}>
       <header className={style["header"]}>
         <h1>
-          Amresh Kumar — A frontend developer,
+        Hi. I’m Anjali. A Digital Marketer.
           <br />
-          focusing on creating digital products with great user experience.
+          Currently working as Search Engine Optimization executive.
         </h1>
       </header>
       <hr />

@@ -5,19 +5,13 @@ import { Link } from "react-router-dom";
 const Contact = (props) => {
   return (
     <div className={style["contact"] + (props.status && style["contact-dark"])}>
-      <p>For work/project related, email me at- amreshk005 [AT] gmail [DOT] com</p>
+      <p>For work/project related, email me at- anjali.oct11 [AT] gmail [DOT] com
+</p>
       <p>
-        Find me on LinkedIn{" "}
-        <Link to="www.linkedin.com/in/amreshk005" style={{ textDecoration: "none", color: "#a568b0" }}>
+      Find me on LinkedIn :
+        <Link to="www.linkedin.com/in/anjali-k-b622591bb" style={{ textDecoration: "none", color: "#a568b0" }}>
           {" "}
-          amreshk005
-        </Link>
-      </p>
-      <p>
-        Also on twitter{" "}
-        <Link to="https://twitter.com/amreshk005" style={{ textDecoration: "none", color: "#a568b0" }}>
-          {" "}
-          @amreshk005
+          anjali-k-b622591bb
         </Link>
       </p>
     </div>

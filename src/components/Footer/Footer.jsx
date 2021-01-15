@@ -12,23 +12,8 @@ export const Footer = (props) => {
           <div className={style["Footer-info"] + " " + (props.status ? style["Footer-dark"] : style["Footer-light"])}>
             <ul>
               <li>
-                <Link to="https://github.com/amreshk05" target="_blank" rel="noopener noreferrer">
-                  Github
-                </Link>
-              </li>
-              <li>
-                <Link to="https://github.com/amreshk005" target="_blank" rel="noopener noreferrer">
-                  Dev
-                </Link>
-              </li>
-              <li>
                 <Link to="https://github.com/amreshk005" target="_blank" rel="noopener noreferrer">
                   Twitter
-                </Link>
-              </li>
-              <li>
-                <Link to="https://github.com/amreshk005" target="_blank" rel="noopener noreferrer">
-                  Codepen
                 </Link>
               </li>
               <li>
@@ -42,7 +27,7 @@ export const Footer = (props) => {
             <img src={props.status ? "/image/dev-black.png" : "/image/dev-white.png"} alt="dev" />
           </div>
         </div>
-        <small style={{ paddingLeft: "10px" }}>© 2020 Copyright Amresh Kumar. All rights reserved.</small>
+        <small style={{ paddingLeft: "10px" }}>© 2020 Copyright Anjali Kumari. All rights reserved.</small>
       </div>
     </footer>
   );
