@@ -14,22 +14,22 @@ const Navbar = (props) => {
       </div>
       <div className={style.infoSection}>
         <div className={props.status ? style.infoDark : style.info}>
-          <ul>
+          <ul style={{margin:"120px"}} >
             <li>
               <Link to="/work">Work</Link>
             </li>
             <li>
               <Link to="/blog">Blog</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/about">About</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            <li>
+            {/* <li>
               <Toggle {...props} />
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

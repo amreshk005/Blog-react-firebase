@@ -15,10 +15,11 @@ const ProjectCard = () => {
               <img src={e.image} style={{ maxWidth: "100%" , border:"1px solid #000" }} alt="new" />
             </div>
             <div className={style["project-info"]}>
+            <h3>{e.contentType}</h3>
               <h2>{e.name}</h2>
               <p style={{ fontSize: "medium" }}>{e.des}</p>
               <a href={e.link}>
-                Work
+                {e.buttonText}
               </a>
             </div>
           </div>

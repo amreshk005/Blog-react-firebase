@@ -12,7 +12,7 @@ const WorkPage = (props) => {
   return (
     <div className={style["work"]}>
       <div className={style["work-info"]}>
-        <p>Currently part of engineering at Box8, a food-tech company, where I work as a frontend developer. My role comprises of building new features and improving the overall experience of the web platform.</p>
+        <p>Currently working as SEO executive. My role comprises of improving overall (On-page, Off-page and technical) SEO activity of the website.</p>
       </div>
       <hr />
       <h4 className={style["work-container-title"]}>FEW MORE</h4>
@@ -33,8 +33,8 @@ const WorkPage = (props) => {
 
       <h3 style={{ marginTop: "8rem" }}>
         Find more on{" "}
-        <Link to="https://github.com/amreshk005" style={{ textDecoration: "none", color: "#a568b0" }}>
-          Github
+        <Link to="https://medium.com/@onlinetales" style={{ textDecoration: "none", color: "#a568b0" }}>
+          Medium
         </Link>
       </h3>
     </div>

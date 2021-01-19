@@ -7,15 +7,14 @@ const FrontPage = (props) => {
     <div className={style["Front"]}>
       <header className={style["header"]}>
         <h1>
-        Hi. I’m Anjali. A Digital Marketer.
-          <br />
-          Currently working as Search Engine Optimization executive.
+        Hi. I’m Anjali.  <br />
+        A Digital Marketer, currently working as SEO executive.
         </h1>
       </header>
       <hr />
       <div className={style["project-container"]}>
         <h4 className={style["project-container-info"]} style={{ marginBottom: "20px", fontSize: "20px" }}>
-          Selected Projects I've worked on
+          WORK
         </h4>
         <ProjectCard />
       </div>

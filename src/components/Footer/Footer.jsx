@@ -24,10 +24,10 @@ export const Footer = (props) => {
             </ul>
           </div>
           <div className={style["Footer-image"]} style={{ width: "140px" }}>
-            <img src={props.status ? "/image/dev-black.png" : "/image/dev-white.png"} alt="dev" />
+            <img src={ "/image/6689.png"} alt="dev" />
           </div>
         </div>
-        <small style={{ paddingLeft: "10px" }}>© 2020 Copyright Anjali Kumari. All rights reserved.</small>
+        <small style={{ paddingLeft: "10px" }}>© 2020 Copyright Anjali . All rights reserved.</small>
       </div>
     </footer>
   );
