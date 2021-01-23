@@ -15,7 +15,7 @@ const ProjectCard = () => {
               <img src={e.image} style={{ maxWidth: "100%" , border:"1px solid #000" }} alt="new" />
             </div>
             <div className={style["project-info"]}>
-            <h3>{e.contentType}</h3>
+            <h2>{e.contentType}</h2>
               <h2>{e.name}</h2>
               <p style={{ fontSize: "medium" }}>{e.des}</p>
               <a href={e.link}>
@@ -23,8 +23,12 @@ const ProjectCard = () => {
               </a>
             </div>
           </div>
+
         );
       })}
+      <h2 className={style["project-container-info"]} style={{ marginBottom: "20px", fontSize: "30px" }}>
+         You can also view my written Blogs   and past <a href="/work" ><span style={{color:"#a568b0"}} > works</span></a>  here.
+        </h2>
     </>
   );
 };

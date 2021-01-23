@@ -9,7 +9,7 @@ const Navbar = (props) => {
     <div className={style.Navbar}>
       <div className={style.logoSection}>
         <Link to="/" className={style.logo}>
-          <img style={{ maxHeight: "4rem", maxWidth: "5rem", padding: "15px" }} src={props.status ? "/image/anjali2.jpeg" : "/image/anjali1.jpeg"} alt="logo" />
+          <img style={{ maxHeight: "4rem", maxWidth: "5rem", padding: "15px" }} src={props.status ? "/image/anjali2.jpeg" : "/image/logo4.jpeg"} alt="logo" />
         </Link>
       </div>
       <div className={style.infoSection}>

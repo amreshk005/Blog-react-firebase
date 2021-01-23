@@ -42,13 +42,13 @@ ul li {
 .Footer-light ul li a {
   color: #292922;
 }
-
 .Footer-dark ul li a {
   color: #cfceee;
 }
 
 .Footer-image {
   flex: 1 1;
+  border-bottom: 50%;
 }
 
 .Footer .Footer-image img {

@@ -9,7 +9,7 @@
     "link":"https://medium.com/drink-prime-blog/how-drinkprime-contributed-to-fighting-covid-19-29157dc96102"
   },
   {
-    "name": "JUMP ONLINE",
+    "name": "Jump Online",
     "des": "",
     "image": "https://firebasestorage.googleapis.com/v0/b/mybuk960.appspot.com/o/anjali-port%2Fpic-5.jpeg?alt=media&token=be347dae-9a29-4fe3-8a5c-611ee3e95b69",
     "selected": true,
@@ -17,15 +17,7 @@
     "buttonText":"View Website",
     "link":"http://www.jumponline.in/"
   },
-  {
-    "name": "JUMP ONLINE",
-    "des": "",
-    "image": "https://firebasestorage.googleapis.com/v0/b/mybuk960.appspot.com/o/anjali-port%2Fpic-4.jpeg?alt=media&token=59527483-2289-4434-8043-33bd6a7318e1",
-    "selected": true,
-    "contentType":"WORDPRESS",
-    "buttonText":"View Website",
-    "link":"http://www.jumponline.in/"
-  },
+ 
   {
     "name": "BiblioApp",
     "des": "Travel management, planning & booking",

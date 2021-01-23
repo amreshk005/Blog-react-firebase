@@ -12,19 +12,24 @@ export const Footer = (props) => {
           <div className={style["Footer-info"] + " " + (props.status ? style["Footer-dark"] : style["Footer-light"])}>
             <ul>
               <li>
-                <Link to="https://github.com/amreshk005" target="_blank" rel="noopener noreferrer">
+                <Link to="/" target="_blank" rel="noopener noreferrer">
                   Twitter
                 </Link>
               </li>
               <li>
-                <Link to="https://github.com/amreshk005" target="_blank" rel="noopener noreferrer">
+                <Link to="/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
+                </Link>
+              </li>
+              <li>
+                <Link to="https://medium.com/@onlinetales" target="_blank" rel="noopener noreferrer">
+                  medium
                 </Link>
               </li>
             </ul>
           </div>
           <div className={style["Footer-image"]} style={{ width: "140px" }}>
-            <img src={ "/image/6689.png"} alt="dev" />
+            <img style={{ borderRadius: "50%"}} src={ "/image/angli12.jpeg"} alt="dev" />
           </div>
         </div>
         <small style={{ paddingLeft: "10px" }}>© 2020 Copyright Anjali . All rights reserved.</small>
