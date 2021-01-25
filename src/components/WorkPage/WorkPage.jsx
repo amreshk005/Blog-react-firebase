@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import style from "./WorkPage.module.css";
-import data from "../../data/data.json";
+import data from "../../data/Work.json";
 import { connect } from "react-redux";
 import { fetchData } from "../../redux/action";
 
@@ -15,16 +15,20 @@ const WorkPage = (props) => {
         <p>Currently working as SEO executive. My role comprises of improving overall (On-page, Off-page and technical) SEO activity of the website.</p>
       </div>
       <hr />
-      <h4 className={style["work-container-title"]}>FEW MORE</h4>
+      <h4 className={style["work-container-title"]}>Selected projects I have worked on...
+</h4>
+<h2 className={style["project-container-info"]} style={{ marginBottom: "20px", fontSize: "30px" }}>
+         Blog Writting
+        </h2>
       <div className={style["work-container"]}>
         {data.map((e, index) => {
           return (
             <div key={index + Date.now()} className={style["work-card"]}>
-              <h3>Audio Features Visualisation</h3>
-              <p className={style["work-desc"]}>Visualisation of audio features using Spotify API. Built with node + react + chartjs</p>
+              <h3>{e.name}</h3>
+              <p className={style["work-desc"]}>{e.des}</p>
               <div className={style["links-wrap"]}>
-                <Link to="#">View Code</Link>
-                <Link to="#">Live Demo</Link>
+                <a href={e.link}>{e.buttonText}</a>
+                {/* <Link to="#">Live Demo</Link> */}
               </div>
             </div>
           );
@@ -33,9 +37,9 @@ const WorkPage = (props) => {
 
       <h3 style={{ marginTop: "8rem" }}>
         Find more on{" "}
-        <Link to="https://medium.com/@onlinetales" style={{ textDecoration: "none", color: "#a568b0" }}>
+        <a href="https://medium.com/@onlinetales" style={{ textDecoration: "none", color: "#a568b0" }}>
           Medium
-        </Link>
+        </a>
       </h3>
     </div>
   );

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "How DrinkPrime contributed….",
+        "des": "DrinkPrime team had started a campaign called “Free Hand Sanitizers Distribution,” intended to help out as many needy people...",
+        "image": "https://firebasestorage.googleapis.com/v0/b/mybuk960.appspot.com/o/anjali-port%2Fpic-6.jpeg?alt=media&token=b8aa63fc-fa10-4bd6-a5cf-a4e8ac58b340",
+        "selected": true,
+        "contentType":"BLOG",
+        "buttonText":"View Full Article",
+        "link":"https://medium.com/drink-prime-blog/how-drinkprime-contributed-to-fighting-covid-19-29157dc96102"
+      },
+      {
+        "name": "A smart home application",
+        "des": "DrinkPrime smart water purifier enabled with IOT technology that helps user to track real-time quality of their water.",
+        "image": "https://medium.com/drink-prime-blog/a-smart-home-application-for-smart-water-purifier-70a2b15cedd7",
+        "selected": true,
+        "contentType":"BLOG",
+        "buttonText":"View Full Article",
+        "link":"https://medium.com/drink-prime-blog/how-drinkprime-contributed-to-fighting-covid-19-29157dc96102"
+      },
+      {
+        "name": "Why 20-litre plastic water jars…..",
+        "des": "Large number of people in urban India are using water cans to fulfill drinking water problems. But, how to find either these 20-liter cans are safe and drinkable?",
+        "image": "https://firebasestorage.googleapis.com/v0/b/mybuk960.appspot.com/o/anjali-port%2Fpic-6.jpeg?alt=media&token=b8aa63fc-fa10-4bd6-a5cf-a4e8ac58b340",
+        "selected": true,
+        "contentType":"BLOG",
+        "buttonText":"View Full Article",
+        "link":"https://medium.com/drink-prime-blog/why-20-litre-plastic-water-jars-are-untenable-concept-9836665ba075"
+      }
+]

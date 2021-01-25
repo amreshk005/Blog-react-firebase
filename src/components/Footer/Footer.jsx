@@ -12,9 +12,9 @@ export const Footer = (props) => {
           <div className={style["Footer-info"] + " " + (props.status ? style["Footer-dark"] : style["Footer-light"])}>
             <ul>
               <li>
-                <Link to="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/onlinetales_" target="_blank" rel="noopener noreferrer">
                   Twitter
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="/" target="_blank" rel="noopener noreferrer">
@@ -22,14 +22,14 @@ export const Footer = (props) => {
                 </Link>
               </li>
               <li>
-                <Link to="https://medium.com/@onlinetales" target="_blank" rel="noopener noreferrer">
+                <a href="https://medium.com/@onlinetales" target="_blank" rel="noopener noreferrer">
                   medium
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
           <div className={style["Footer-image"]} style={{ width: "140px" }}>
-            <img style={{ borderRadius: "50%"}} src={ "/image/angli12.jpeg"} alt="dev" />
+            <img style={{ borderRadius: "50%"}} src={ "/image/angali121.jpeg"} alt="dev" />
           </div>
         </div>
         <small style={{ paddingLeft: "10px" }}>© 2020 Copyright Anjali . All rights reserved.</small>

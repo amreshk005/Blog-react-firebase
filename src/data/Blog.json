@@ -1,0 +1,11 @@
+[
+    {
+        "name": "A guide for beginners to use Facebook for businesses",
+        "des": "I don’t think “Facebook” needs an introduction in the present time. The only social media platform that has a total of 2.7 billion monthly active users, (making it the biggest social network in the world). Users spend on an average 20 minutes per day on the site, making it a powerful marketing tool.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/mybuk960.appspot.com/o/anjali-port%2Fpic-6.jpeg?alt=media&token=b8aa63fc-fa10-4bd6-a5cf-a4e8ac58b340",
+        "selected": true,
+        "contentType":"BLOG",
+        "buttonText":"Read article",
+        "link":"https://medium.com/drink-prime-blog/how-drinkprime-contributed-to-fighting-covid-19-29157dc96102"
+      }
+]
