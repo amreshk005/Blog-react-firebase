@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import style from "./WorkPage.module.css";
 import data from "../../data/Work.json";
+import Seo from '../../data/Seo.json';
+import WordPress from '../../data/workpress.json';
+import Socialmedia from '../../data/socialmedia.json';
 import { connect } from "react-redux";
 import { fetchData } from "../../redux/action";
 
@@ -22,6 +25,65 @@ const WorkPage = (props) => {
         </h2>
       <div className={style["work-container"]}>
         {data.map((e, index) => {
+          return (
+            <div key={index + Date.now()} className={style["work-card"]}>
+              <h3>{e.name}</h3>
+              <p className={style["work-desc"]}>{e.des}</p>
+              <div className={style["links-wrap"]}>
+                <a href={e.link}>{e.buttonText}</a>
+                {/* <Link to="#">Live Demo</Link> */}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <h2 className={style["project-container-info"]} style={{ marginBottom: "20px", fontSize: "30px" }}>
+         SEO 
+        </h2>
+
+        <div className={style["work-container"]}>
+        {Seo.map((e, index) => {
+          return (
+            <div key={index + Date.now()} className={style["work-card"]}>
+              <h3>{e.name}</h3>
+              <p className={style["work-desc"]}>{e.des}</p>
+              <div className={style["links-wrap"]}>
+                <a href={e.link}>{e.buttonText}</a>
+                {/* <Link to="#">Live Demo</Link> */}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+
+      <h2 className={style["project-container-info"]} style={{ marginBottom: "20px", fontSize: "30px" }}>
+         WordPress
+        </h2>
+
+        <div className={style["work-container"]}>
+        {WordPress.map((e, index) => {
+          return (
+            <div key={index + Date.now()} className={style["work-card"]}>
+              <h3>{e.name}</h3>
+              <p className={style["work-desc"]}>{e.des}</p>
+              <div className={style["links-wrap"]}>
+                <a href={e.link}>{e.buttonText}</a>
+                {/* <Link to="#">Live Demo</Link> */}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <h2 className={style["project-container-info"]} style={{ marginBottom: "20px", fontSize: "30px" }}>
+      Social Media Marketing
+
+        </h2>
+
+        <div className={style["work-container"]}>
+        {Socialmedia.map((e, index) => {
           return (
             <div key={index + Date.now()} className={style["work-card"]}>
               <h3>{e.name}</h3>

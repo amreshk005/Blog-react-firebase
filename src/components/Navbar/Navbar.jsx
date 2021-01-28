@@ -15,6 +15,9 @@ const Navbar = (props) => {
       <div className={style.infoSection}>
         <div className={props.status ? style.infoDark : style.info}>
           <ul style={{margin:"120px"}} >
+          <li>
+              <Link to="/">Home</Link>
+            </li>
             <li>
               <Link to="/work">Work</Link>
             </li>
